@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
+
+}
+
+
+.menu {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px;
+    height: 120px;
+
+}
+
+i.fas.fa-sticky-note{
+    font-size:40px;
+}
+
+
+
+
+.NoteArea{
+    display: flex;
+   flex-wrap: wrap;
+   padding:20px;
+
+}
+
+
+.note{
+    margin: 40px 20px;
+    width: 240px;
+    background-color: rgb(255,243,0);
+    border:1px solid black;
+    
+}
+
+
+.close{
+    
+    background-color: transparent;
+    border:none;
+    padding-right: 5px;
+}
+.note-header{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.06);
+    padding:10px 20px;
+
+}
+
+.note-body{
+
+    padding:10px;
+}
+
+
+.addNoteArea{
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border:1px solid black;
+    width: 600px;
+    box-shadow: 0 0 10px black;
+    padding:15px;
+    display: none;
+}
+
+div h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.choose{
+
+  text-align: center;
+
+  
+  
+}
+.form-select{
+    
+
+    width:100%;
+    max-width: 90%;
+    padding:10px 20px;
+
+}
+
+#cos{
+    width:100%;
+    max-width: 90%;
+    padding:10px 20px;
+    max-height: 600px ;
+}
+
+.content{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+.cos{
+    padding:10px;
+}
+
+
+.error{
+    margin-top:5px;
+    visibility:hidden;
+}
+
+
